@@ -2,7 +2,7 @@
 An exploration of the National UFO Reporting Center's dataset of 80,000 UFO sightings from 1910-2014.
 
 1. Set-Up and Data Cleaning
-Creates a new table ufo from ufo_raw.
+ Creates a new table ufo from ufo_raw.
 Handles null values by removing records where both country and state are missing.
 Adjusts data types: Converts columns like "date posted" to date, and splits datetime into date and time columns.
 Cleans whitespace in all relevant columns.
