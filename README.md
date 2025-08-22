@@ -1,6 +1,7 @@
 # UFO Sightings?
 This SQL script explores the National UFO Reporting Center's [dataset](https://www.kaggle.com/code/leonardkurniadi/ufo-sightings-analysis) containing information about 80,000 UFO sightings from 1910-2014. After cleaning, filtering, and intial exploration, the data is joined with [TMDB](https://www.kaggle.com/datasets/disham993/9000-movies-dataset/data) information to analyze any potential relationships between sightings and alien movie releases.  
-<ins>**Skills Used**</ins>: CTEs, Window Functions, Inner Joins, Conditional Logic, Filtering, Aggregating, Data Cleaning/Transformation
+  
+<ins>**SQL Skills Used**</ins>: CTEs, Window Functions, Inner Joins, Conditional Logic, Filtering, Aggregating, Data Cleaning/Transformation
 
 ### 1. Set-Up and Clean
 - Creates a new working table ufo from ufo_raw.    
@@ -28,3 +29,8 @@ This SQL script explores the National UFO Reporting Center's [dataset](https://w
 ### 5. Cross-Analysis: UFO Sightings and Alien Movies
 1. How many sightings occured within 30 days after any given movies release?  
 2. For any given movie, what was the most common shape sighted during the year of its release? 
+
+---
+
+**Author:** [Clara Meera](https://github.com/clarameera)  
+**Repository:** https://github.com/clarameera/UFO-Sightings
